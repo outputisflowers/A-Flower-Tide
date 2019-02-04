@@ -161,6 +161,14 @@ body {
   padding-bottom: 1vh;
 }
 
+@media (min-width: 860px) {
+  #social-icons {
+    position: absolute;
+    top: 7%;
+    right: 8%;
+  }
+}
+
 #social-icons a {
   padding: 0.5rem 0;
   font-weight: 700;
@@ -179,7 +187,7 @@ body {
 }
 
 i.fa {
-  font-size: calc(1.5rem + vw);
+  font-size: calc(1.5rem + 0.1vh);
 }
 
 /*
