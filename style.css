@@ -89,12 +89,13 @@ nav ul.navbar-social li {
   background-size: cover;
 }
 
-.cover h2 {
+.cover h4 {
   position: absolute;
   bottom: 5%;
   width: 100vw;
   -webkit-animation: pulsate 2s ease-in-out;
   -webkit-animation-iteration-count: infinite;
+  line-height: 1;
 }
 
 @-webkit-keyframes pulsate {
